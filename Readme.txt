@@ -12,8 +12,11 @@ I am [Your Name], a [Your Job Title] with [Number of Years] years of experience 
 ## 📜 Resume
 You can download my resume here and get acquainted with my experiences and skills:
 
+<<<<<<< HEAD
 [🔗 Download Resume](your_resume_link)
 
+=======
+>>>>>>> 8d2678fa6d307c4ca14948c6e81b6f0fed98f91a
 ## 🌟 Projects
 I have worked on various projects, including [Brief Description of Projects]. Check out my portfolio for more details.
 
@@ -25,4 +28,4 @@ If you have any questions or would like to get in touch, feel free to reach me v
 I hope you enjoy exploring my website! 😊
 
 Thank you,  
-[Your Name]
+phoenix
