@@ -1,92 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Skills</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<style>.progress-bar{color:#fff;}</style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - iPortfolio Bootstrap Template</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
-<body>
-<div class="container py-5">
-<h2 class="mb-4">💻 Skills</h2>
 
-<h5>🧠 AI & Data Science</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:100%;background:#3776AB">Python</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#EE4C2C">PyTorch</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#FF6F20">TensorFlow</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#F7931E">scikit-learn</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:100%;background:#013243">NumPy</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#150458">Pandas</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#003B57">Matplotlib</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#4C72B0">Seaborn</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#8CAAE6">SciPy</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#5C3EE8">OpenCV</div></div></div>
-</div>
+<body class="index-page">
 
-<h5>🌐 Web & Backend</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#E34F26">HTML5</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#1572B6">CSS3</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#F7DF1E">JavaScript</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#339933">Node.js</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#000">Express.js</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#777BB4">PHP</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#000">Flask</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#092E20">Django</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#21759B">WordPress</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#25A3E0">REST API</div></div></div>
-</div>
+  <!-- Header -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-<h5>🧩 Databases & Infra</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#47A248">MongoDB</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#DC382D">Redis</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#005C84">MySQL</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#2496ED">Docker</div></div></div>
-</div>
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
 
-<h5>🤖 Automation & Agents</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#FF6A00">n8n</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:75%;background:#6C63FF">LangChain</div></div></div>
-</div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">ALI MOHAMMADI NIA</h1>
+    </a>
 
-<h5>🛡️ Security</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#FF4B4B">OSCP</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#0078D4">Network+</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#FF0000">CEH</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:100%;background:#557C94">Kali Linux</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:80%;background:#5DBF3A">Nmap</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:75%;background:#4A4A4A">Metasploit</div></div></div>
-</div>
+    <div class="social-links text-center">
+      <a href="#" class="smile"><i class="bi bi-emoji-wink-fill"></i></a>
+      <a href="https://t.me/Phoenix_110_135" class="iran"><i class="bi bi-cursor-fill"></i></a>
+      <a href="https://github.com/phoenix-110-135" class="github"><i class="bi bi-github"></i></a>
+    </div>
 
-<h5>⚙️ Tools & DevOps</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:100%;background:#F05032">Git</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#007ACC">VS Code</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#4EAA25">Bash</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#FCC624">Linux</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#00979D">Arduino</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#2496ED">Docker</div></div></div>
-</div>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#stats"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#skills"><i class="bi bi-images navicon"></i> Skill</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<h5>🎨 Design & Media</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#31A8FF">Photoshop</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#FF9A00">Illustrator</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#9999FF">After Effects</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:85%;background:#9999FF">Premiere Pro</div></div></div>
-</div>
+  <main class="main">
 
-<h5>💡 Languages</h5>
-<div class="row mb-2">
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:95%;background:#00599C">C++</div></div></div>
-<div class="col-6 mb-1"><div class="progress"><div class="progress-bar" style="width:90%;background:#239120">C#</div></div></div>
-</div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>PHOENIX</h2>
+        <p>I'm <span class="typed" data-typed-items="Osinter, AI-Developer, Full-Stack, Designer, Editor">Designer</span></p>
+      </div>
+    </section>
 
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I am a full-stack and AI developer with a passion for building innovative solutions that bridge the gap between technology and user experience.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>AI Developer & Web Developer</h2>
+            <p class="fst-italic py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>29 February 2009</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.phoenix-110-135.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Account Telegram:</strong> <span>@phoenix_110_135</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>TEHRAN, IRAN</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>16</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>a87h97@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Favorite:</strong> <span>Programming</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">I love programming and I live to discover the secrets of the world and its intricate loops 😉</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="+100" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="+1000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="+2000" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="+50" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>I possess a diverse skill set including programming, AI/ML, cybersecurity, and design tools.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 95%; background-color: #f06529;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; background-color: #2965f1;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 100%; background-color: #306998;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>AI / ML</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%; background-color: #ff6f61;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>After Effects</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%; background-color: #00c1d4;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>CEH</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 95%; background-color: #ffb400;" role="progressbar"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Kali Linux</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 100%; background-color: #000000;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; background-color: #21759b;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Photoshop</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%; background-color: #31a8ff;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>IOT</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; background-color: #ff4500;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Machine Vision</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%; background-color: #8a2be2;" role="progressbar"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>C++</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%; background-color: #00599c;" role="progressbar"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">resume</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 </html>
